@@ -1,8 +1,7 @@
 app-tag-creation-ui
 ===================
 
-Simple UI utility for uploading CSV file to a REST endpoint.
-
+Super simple UI utility for uploading CSV file to a REST endpoint.
 
 
 Installation

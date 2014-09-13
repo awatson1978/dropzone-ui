@@ -12,12 +12,20 @@
   <div class="row">
     <div class="container">
       <div class="col col-md-6 col-md-offset-3">
+
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4>{{greeting}}</h4>
           </div>
           <div class="panel-body">
+            <p>
+              This example uploads a file to the <b>/programs/server/assets/app/uploads</b> directory.  If you're running it on a local development environment, you'll need to go to <b>.meteor/local/build/programs/server/assets/app/uploads</b>.
+            </p>
             {{> dropzone url="/uploads" id="#creativeTagDropZone" }}
+          </div>
+          <div class="panel-footer">
+            <a href="http://github.com/awatson1978/dropzone-ui.git">Get the Code</a>
+            <a class="pull-right" href="http://github.com/awatson1978/meteor-cookbook.git">Meteor Cookbook</a>
           </div>
         </div>
       </div>

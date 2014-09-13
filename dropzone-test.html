@@ -1,38 +1,23 @@
 <head>
-  <title>dropzone-test</title>
+  <title>dropzone-ui</title>
 </head>
 
-<body>
-  {{> hello}}
-</body>
+<template name="appLayout">
+  {{> yield }}
+</template>
 
 <template name="hello">
   <br>
   <br>
   <div class="row">
     <div class="container">
-
-      <div class="col col-md-6">
+      <div class="col col-md-6 col-md-offset-3">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h1>Upload Creative Tags</h1>
+            <h4>{{greeting}}</h4>
           </div>
           <div class="panel-body">
-            {{{dropzone "/upload-creatives" "#creativeTagDropZone"}}}
-          </div>
-          <div class="panel-footer">
-          </div>
-        </div>
-      </div>
-      <div class="col col-md-6">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h1>Upload Product Tags</h1>
-          </div>
-          <div class="panel-body">
-            {{{dropzone "/upload-products" "#productTagDropZone"}}}
-          </div>
-          <div class="panel-footer">
+            {{> dropzone url="/uploads" id="#creativeTagDropZone" }}
           </div>
         </div>
       </div>

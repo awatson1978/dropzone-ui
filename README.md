@@ -29,6 +29,10 @@ cd dropzone-ui
 meteor
 ````
 
+Screenshot
+------------------------
+![DropzoneUI](http://github.com/awatson1978/dropzone-ui/dropzone-ui-screenshot.png)
+
 
 Licensing
 ------------------------

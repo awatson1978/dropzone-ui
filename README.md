@@ -3,7 +3,7 @@ dropzone-ui
 
 Utility for uploading images to a REST endpoint.
 
-Version
+Meteor Version
 ------------------------
 0.9.1
 

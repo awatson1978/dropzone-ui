@@ -1,6 +1,6 @@
 if (Meteor.isClient) {
   Template.hello.greeting = function () {
-    return "Welcome to dropzone-test.";
+    return "Welcome to dropzone-ui.";
   };
 
   Router.configure({

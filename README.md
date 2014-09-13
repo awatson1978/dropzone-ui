@@ -31,7 +31,7 @@ meteor
 
 Screenshot
 ------------------------
-![DropzoneUI](http://github.com/awatson1978/dropzone-ui/dropzone-ui-screenshot.png)
+![DropzoneUI](https://raw.githubusercontent.com/awatson1978/dropzone-ui/master/dropzone-ui-screenshot.png?token=675910__eyJzY29wZSI6IlJhd0Jsb2I6YXdhdHNvbjE5NzgvZHJvcHpvbmUtdWkvbWFzdGVyL2Ryb3B6b25lLXVpLXNjcmVlbnNob3QucG5nIiwiZXhwaXJlcyI6MTQxMTI0MzcxN30%3D--bf4a140a3a625f620d1fc13dc678bb4c0c11112d)
 
 
 Licensing

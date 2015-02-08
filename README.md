@@ -3,6 +3,8 @@ dropzone-ui
 
 Utility for uploading images to a REST endpoint.
 
+![travis-build](https://travis-ci.org/awatson1978/dropzone-ui.svg?branch=master)  
+
 Meteor Version
 ------------------------
 1.0.3.1

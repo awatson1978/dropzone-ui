@@ -2,8 +2,14 @@
   <title>dropzone-ui</title>
 </head>
 
-<template name="appLayout">
-  {{> yield }}
+<template name="mainLayout">
+  <div id="mainLayout">
+    <div id="mainPanel">
+      {{> navbarHeader }}
+      {{> yield }}
+      {{> navbarFooter}}
+    </div>
+  </div>
 </template>
 
 <template name="hello">

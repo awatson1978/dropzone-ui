@@ -2,7 +2,9 @@ standard-app-packages
 autopublish
 insecure
 less
+
 awatson1978:dropzone
 iron:router
-mrt:bootstrap-3
 
+nemo64:bootstrap
+natestrauser:font-awesome

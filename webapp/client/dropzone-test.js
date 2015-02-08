@@ -4,7 +4,7 @@ if (Meteor.isClient) {
   };
 
   Router.configure({
-  	layoutTemplate: 'appLayout'
+  	layoutTemplate: 'mainLayout'
   });
 
   Router.map(function () {

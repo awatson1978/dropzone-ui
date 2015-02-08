@@ -5,7 +5,7 @@ Utility for uploading images to a REST endpoint.
 
 Meteor Version
 ------------------------
-0.9.1
+1.0.3.1
 
 
 Dependencies
